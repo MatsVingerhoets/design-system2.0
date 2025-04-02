@@ -1,0 +1,72 @@
+{
+  "name": "@matsvingerhoets/design-system2.0",
+  "version": "0.0.6",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build-tailwind": "npx @tailwindcss/cli -o ./dist/styles.css --minify",
+    "build": "vite build && npm run build-tailwind",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "dependencies": {
+    "@headlessui/react": "^2.2.0",
+    "@tailwindcss/vite": "^4.1.1",
+    "clsx": "^2.1.1",
+    "headlessui": "^0.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-icons": "^5.5.0",
+    "vite-plugin-dts": "^4.5.3"
+  },
+  "devDependencies": {
+    "@chromatic-com/storybook": "^3.2.6",
+    "@eslint/js": "^9.21.0",
+    "@storybook/addon-essentials": "^8.6.12",
+    "@storybook/addon-onboarding": "^8.6.12",
+    "@storybook/blocks": "^8.6.12",
+    "@storybook/experimental-addon-test": "^8.6.12",
+    "@storybook/react": "^8.6.12",
+    "@storybook/react-vite": "^8.6.12",
+    "@storybook/test": "^8.6.12",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@vitejs/plugin-react": "^4.3.4",
+    "@vitest/browser": "^3.1.1",
+    "@vitest/coverage-v8": "^3.1.1",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^9.21.0",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "eslint-plugin-storybook": "^0.12.0",
+    "globals": "^15.15.0",
+    "playwright": "^1.51.1",
+    "postcss": "^8.5.3",
+    "storybook": "^8.6.12",
+    "tailwindcss": "^4.1.1",
+    "typescript": "~5.7.2",
+    "typescript-eslint": "^8.24.1",
+    "vite": "^6.2.0",
+    "vitest": "^3.1.1"
+  },
+  "peerDependencies": {
+    "tailwindcss": "^4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matsvingerhoets/design-system2.0.git"
+  },
+  "eslintConfig": {
+    "extends": [
+      "plugin:storybook/recommended"
+    ]
+  }
+}
