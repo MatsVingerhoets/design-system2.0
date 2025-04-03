@@ -1,10 +1,11 @@
 import type { Meta, StoryObj } from '@storybook/react';
+import React from 'react'
 
 import Card from './Card';
 
 // More on how to set up stories at: https://storybook.js.org/docs/writing-stories#default-export
 const meta = {
-  title: 'Atoms/Card',
+  title: 'components/Card',
   component: Card,
   // This component will have an automatically generated Autodocs entry: https://storybook.js.org/docs/writing-docs/autodocs
   tags: ['autodocs'],

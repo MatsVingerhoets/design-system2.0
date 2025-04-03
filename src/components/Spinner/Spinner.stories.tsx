@@ -4,7 +4,7 @@ import Spinner from './Spinner';
 
 // More on how to set up stories at: https://storybook.js.org/docs/writing-stories#default-export
 const meta = {
-  title: 'Atoms/Spinner',
+  title: 'components/Spinner',
   component: Spinner,
   argTypes: {
     size: {
