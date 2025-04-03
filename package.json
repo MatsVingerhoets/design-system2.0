@@ -17,7 +17,7 @@
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "deploy-storybook": "storybook deploy"
+    "deploy-storybook": "storybook build -o ./docs"
   },
   "dependencies": {
     "@headlessui/react": "^2.2.0",
