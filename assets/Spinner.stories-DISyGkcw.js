@@ -1,0 +1,5 @@
+import{j as a}from"./jsx-runtime-D_zvdyIk.js";import{c as d}from"./clsx-B-dksMZM.js";function n({size:l}){const o="text-[#E2001A] p-2 border-4 border-synRed border-t-transparent rounded-full animate-spin",i={small:"w-12 h-12",default:"w-16 h-16",large:"w-24 h-24"};return a.jsx("div",{className:"d-block mx-auto",role:"status",children:a.jsx("div",{className:d(o,i[l||"default"])})})}n.__docgenInfo={description:"",methods:[],displayName:"Spinner",props:{size:{required:!1,tsType:{name:"union",raw:"'small' | 'default'",elements:[{name:"literal",value:"'small'"},{name:"literal",value:"'default'"}]},description:""}}};const u={title:"Atoms/Spinner",component:n,argTypes:{size:{control:"inline-radio",options:["small","default","large"]}},tags:["autodocs"]},e={args:{size:"default"}};var s,t,r;e.parameters={...e.parameters,docs:{...(s=e.parameters)==null?void 0:s.docs,source:{originalSource:`{
+  args: {
+    size: "default"
+  }
+}`,...(r=(t=e.parameters)==null?void 0:t.docs)==null?void 0:r.source}}};const c=["Default"];export{e as Default,c as __namedExportsOrder,u as default};
